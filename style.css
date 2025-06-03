@@ -26,7 +26,7 @@
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
-    font-family: 'Inter', sans-serif;
+    font-family: "Titillium Web", sans-serif;
     color: var(--text-color);
     height: 100vh;
 }
