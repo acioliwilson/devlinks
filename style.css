@@ -50,12 +50,17 @@ a {
 #profile img {
     width: 112px;
 }
+
 #profile p {
     font-weight: 500;
     line-height: 24px;
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 24px;
+}
+
+.new-avatar {
+    animation: .2s bounce-in ease forwards;
 }
 
 /* switch */
@@ -171,4 +176,10 @@ footer {
 @keyframes slide-back {
     from { left: 50%; }
     to { left: 0; }
+}
+
+@keyframes bounce-in {
+    0%, 100% { transform: scale(1); }
+    90% { transform: scale(1.2); }
+    95% { transform: scale(.9); }
 }

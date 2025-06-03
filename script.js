@@ -9,6 +9,12 @@ function toggleMode() {
     } else {
         img.setAttribute('src', './assets/dark-mode-avatar.png')
     }
+
+    if(!img.classList.contains('new-avatar')) {
+        img.classList.add('new-avatar');
+    } else {
+        img.classList.remove('new-avatar');
+    }
 }
 
 // toggleMode();
